@@ -1,1 +1,7 @@
-# mri3t_to_7t
+# Install
+uv venv .venv
+
+uv pip install -r requirements.txt
+
+# Sample inference
+python src\testing\eval.py
