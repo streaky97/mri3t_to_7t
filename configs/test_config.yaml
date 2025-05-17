@@ -1,0 +1,25 @@
+# Device configuration
+device: auto  # 'auto', 'cuda', 'mps', or 'cpu'
+
+# Dataset configuration
+dataset:
+  json_path: "./test.json"
+  fold_id: 1
+  mode: "Train"
+  resized: [448, 364]  # width, height
+
+# Model configuration
+model:
+  weights_path: "runtime/weights/model_weight.pth"
+
+# Scheduler configuration (should match training)
+scheduler:
+  num_train_timesteps: 1000
+  beta_schedule: "squaredcos_cap_v2"
+
+# Evaluation configuration
+evaluation:
+  batch_size: 1
+  sampling_stride: 50  # Defines how many diffusion steps to skip (higher = faster but lower quality)
+  output_dir: "./runtime/evaluation_results"
+  num_visualizations: 10  # Number of images to visualize
