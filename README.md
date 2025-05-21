@@ -15,6 +15,7 @@ uv pip install -r requirements.txt
 
 # 2 Sample inference
 Running a Sample Inference A sample input file (.npy) is included for demonstration purposes.
+
 ## 2-1 Quick run
 ```Shell
 python src\testing\eval.py
