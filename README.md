@@ -29,5 +29,7 @@ After running the inference, you can see the result under the folder `runtime\ev
 The inference configurations can be found at [test_config.yaml](configs\test_config.yaml) 
 
 # 3 Training
+Here is the paper implemented model structure.
+![Model structure](assets\Model_structure.png)
 **<font color="red">Attention:</font>** For additional information (e.g., training hyper-parameters), please contact the author.
 
