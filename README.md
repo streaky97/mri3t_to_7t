@@ -30,6 +30,6 @@ The inference configurations can be found at [test_config.yaml](configs\test_con
 
 # 3 Training
 Here is the paper implemented model structure.
-![Model structure](assets\Model_structure.png)
+![Model structure](https://github.com/streaky97/mri3t_to_7t/blob/main/assets/Model_structure.png)
 **<font color="red">Attention:</font>** For additional information (e.g., training hyper-parameters), please contact the author.
 
