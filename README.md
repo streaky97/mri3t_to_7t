@@ -1,7 +1,8 @@
 # 0 Introduction
 
 This repository contains a demonstration of MRI3Tto7T, including a pretrained model for quick evaluation.
-![Sample Image](runtime\evaluation_results\visualizations\sample_result.png)
+![Sample Image](https://github.com/streaky97/mri3t_to_7t/blob/main/runtime/evaluation_results/visualizations/sample_result.png)
+
 # 1 Installation
 ## 1-1 Create a virtual environment
 ```Shell
