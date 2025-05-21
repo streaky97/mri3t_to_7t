@@ -2,8 +2,9 @@
 # 0 Introduction
 This repository is belong to the NeuralImaging paper **Synthetizing SWI from 3T to 7T by generative diffusion network for deep me-dullary veins visualization**.
 
-The repository contains a demonstration of MRI3Tto7T, including a pretrained model for quick evaluation.
-![Paper comparision](assets\Comparasion.png)
+This repository contains a demonstration of MRI3Tto7T, including a pretrained model for quick evaluation.
+![Sample Image](https://github.com/streaky97/mri3t_to_7t/blob/main/runtime/evaluation_results/visualizations/sample_result.png)
+
 # 1 Installation
 ## 1-1 Create a virtual environment
 ```Shell
